@@ -59,67 +59,7 @@ Follow these steps to set up the project locally.
    cd Code-Editor-ClassBoxes-Backend
 Below is the updated README file, now including information about Prisma Docker along with the technology stack and start instructions:
 
-```markdown
-# Code Editor ClassBoxes Backend
 
-This repository hosts the backend API for the **Code Editor ClassBoxes** project. It provides endpoints to manage code editing sessions, class boxes (representing code modules or components), and additional functionalities for the code editor application.
-
-## Table of Contents
-
-- [Features](#features)
-- [Technology Stack](#technology-stack)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Start Instructions](#start-instructions)
-- [Configuration](#configuration)
-- [API Documentation](#api-documentation)
-  - [Authentication](#authentication)
-  - [ClassBoxes Endpoints](#classboxes-endpoints)
-  - [Code Editor Endpoints](#code-editor-endpoints)
-  - [Additional Endpoints](#additional-endpoints)
-- [Error Handling](#error-handling)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
-## Features
-
-- **Session Management:** Create, update, and delete coding sessions.
-- **ClassBoxes Management:** Perform CRUD (Create, Read, Update, Delete) operations on class boxes.
-- **Real-time Collaboration (if applicable):** Support for multiple users editing simultaneously.
-- **Modular Architecture:** Built with modern frameworks to ensure scalability and maintainability.
-
-## Technology Stack
-
-This project is built using the following technologies:
-
-- **Node.js & Express:** For the backend server and API routing.
-- **Database:** Managed via Prisma and run using Docker. You can configure your database connection string in the environment variables.
-- **Prisma ORM:** Used for database schema management and interactions.
-- **Docker:** Used to containerize Prisma (and optionally your database) for easy deployment and consistency.
-- **Authentication:** JSON Web Tokens (JWT) for securing API endpoints.
-- **Other Tools & Libraries:** Additional npm packages for file uploads, data validation, error handling, and middleware functionalities.
-
-## Getting Started
-
-Follow these steps to set up the project locally.
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (v14.x or above)
-- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
-- [Docker](https://www.docker.com/) (for running Prisma and/or your database)
-- A database of your choice (e.g., PostgreSQL, MySQL) configured via Prisma
-
-### Installation
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/Surajsachan29889/Code-Editor-ClassBoxes-Backend.git
-   cd Code-Editor-ClassBoxes-Backend
-   ```
 
 2. **Install dependencies:**
 
